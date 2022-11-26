@@ -1,11 +1,10 @@
 <template>
   <div>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <quake-card />
   </div>
 </template>
 
 
 <script setup lang="ts">
+import QuakeCard from '@/components/quake-card.vue';
 </script>
